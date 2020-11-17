@@ -1,0 +1,72 @@
+body{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bg-top-section{
+    background-image: url(../img/top-section/bg/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.phone{
+    color: #ED6C33;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    font-size: 16px;
+}
+
+.text_pink{
+    color: #874D97;
+}
+
+.text-tiny{
+    font-size: 14px;
+}
+
+.text-small{
+    font-size: 16px;
+}
+
+.title{
+    font-weight: 900;
+}
+
+.title_narrow{
+    font-weight: 400;
+}
+
+.title_big{
+    font-size: 38px;
+}
+
+.title_medium{
+    font-size: 26px;
+}
+
+.item-offer{
+    font-size: 18px;
+    margin: 20px 0;
+    list-style: none;
+    position: relative;
+    line-height: 15px;
+}
+
+.item-offer::before{
+    content: '\25A0';
+    left: -15px;
+    position: absolute;
+    color: #874D97;
+}
+
+.btn span{
+    font-weight: 100;
+}
+
+.btn-orange{
+    color: #fff;
+    background-color: #ED6C33;
+    padding: 10px 15px;
+}
