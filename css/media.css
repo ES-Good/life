@@ -1,0 +1,29 @@
+@media(min-width:576px){
+
+}
+
+@media(min-width:768px){
+
+}
+
+@media(min-width:992px){
+
+}
+
+@media(min-width:1200px){
+    .item-about:not(:last-child){
+        margin-right: 65px;
+        margin-bottom: 0;
+    }
+    .item-about:not(:last-child)::after{
+        content: '';
+        height: 150%;
+        width: 1px;
+        right: -30px;
+        top: 50%;
+    }
+    .about-footer {
+        width: 95%;
+        padding: 45px 50px;
+    }
+}

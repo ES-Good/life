@@ -7,6 +7,7 @@ body{
 .bg-top-section{
     background-image: url(../img/top-section/bg/bg.jpg);
     background-repeat: no-repeat;
+    background-color: #F0F5F9;
 }
 
 .phone{
@@ -39,11 +40,11 @@ body{
 }
 
 .title_big{
-    font-size: 38px;
+    font-size: 48px;
 }
 
 .title_medium{
-    font-size: 26px;
+    font-size: 36px;
 }
 
 .item-offer{
@@ -68,5 +69,73 @@ body{
 .btn-orange{
     color: #fff;
     background-color: #ED6C33;
-    padding: 10px 15px;
+    padding: 10px 20px;
+    line-height: 15px;
+}
+
+.bg-section-about{
+    background-color: #F0F5F9;
+    background-image: url(../img/about/bg.svg);
+    background-repeat: no-repeat;
+}
+
+.about-img-col::after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 60%;
+    background-color: #ED6C33;
+}
+
+.img-about-girl{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.about__link{
+    text-decoration: underline;
+    font-weight: 600;
+    position: relative;
+    margin-left: 35px;
+}
+
+.about__link::before{
+    content: '\2192';
+    position: absolute;
+    font-size: 30px;
+    left: -35px;
+    top: -13px;
+}
+
+.about-footer{
+    width: 95%;
+    padding: 45px 0px;
+}
+
+.item-about{
+    font-weight: 700;
+    list-style: none;
+    line-height: 20px;
+    position: relative;
+}
+
+.item-about:not(:last-child){
+    margin-bottom: 45px;
+}
+
+.item-about:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    background-color: #bcbbbd;
+    height: 1px;
+    width: 80%;
+    right: 20%;
+    top: 150%;
+    transform: translate(0%, -50%);
 }
