@@ -206,3 +206,12 @@ body{
     border: 1px solid #ED6C33;
     box-shadow: 0 0 10px #bdb6b6;
 }
+
+.staff-position{
+    font-size: 14px;
+    color: #9A9A9A;
+}
+
+.card-staff{
+    height: 440px;
+}
