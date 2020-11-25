@@ -2,6 +2,7 @@ body{
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
+    background-color: #F0F5F9;
 }
 
 .bg-top-section{
@@ -24,7 +25,7 @@ body{
 }
 
 .text-tiny{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .text-small{
@@ -40,7 +41,20 @@ body{
 }
 
 .title_big{
-    font-size: 48px;
+    font-size: 24px;
+}
+
+.discription-top-section{
+    font-size: 22px;
+}
+
+.mobile-logo{
+    width: 150px;
+}
+
+.img-top-section-girl-desctop{
+    position: relative;
+    top: 50px;
 }
 
 .title_medium{
@@ -81,6 +95,10 @@ body{
     background-color: #F0F5F9;
     background-image: url(../img/about/bg.svg);
     background-repeat: no-repeat;
+}
+
+.footer_bg{
+    background-color: #874D97;
 }
 
 .about-img-col::after{
@@ -214,4 +232,64 @@ body{
 
 .card-staff{
     height: 440px;
+}
+
+.img-discription{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 420px;
+    background-color: #fff;
+    box-shadow: 0 0 30px #4f4f4f;
+    padding: 15px 0;
+    left: -15px;
+    bottom: -15px;
+    z-index: 1;
+}
+
+.img-experience{
+    z-index: 2;
+    position: absolute;
+    background-color: #ED6C33;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 700;
+    right: 10px;
+    top: 50px;
+}
+
+.btn-link:focus{
+    box-shadow: none;
+}
+
+.social-link:hover img{
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.social-link:hover{
+    text-decoration: none;
+}
+
+.maps{
+    border: 8px solid #fff;
+}
+
+.contact span{
+    font-size: 14px;
+}
+
+.contact p {
+    line-height: 20px;
+}
+
+.nav-link_footer{
+    color: #fff;
+    font-size: 16px;
 }

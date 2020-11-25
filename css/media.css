@@ -1,5 +1,13 @@
 @media(min-width:576px){
-
+    .title_big{
+        font-size: 48px;
+    }
+    .discription-top-section{
+        font-size: 32px;
+    }
+    .mobile-logo{
+        width: 250px;
+    }
 }
 
 @media(min-width:768px){
