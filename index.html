@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="fancybox-master/dist/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -71,7 +74,7 @@
                         </div>
                     </div>
                     <div class="d-none d-xl-block col-12 col-xl-6 p-0">
-                        <img src="img/top-section/girl.png" alt="" class="img-fluid float-right img-top-section-girl-desctop">
+                      <img src="img/top-section/girl.png" alt="" class="img-fluid float-right img-top-section-girl-desctop">
                     </div>
                 </div>
         </div>
@@ -181,14 +184,14 @@
             </ul>
           </div>
         </div>
-        <div class="row container-w-95 pl-5">
+        <div class="row container-w-95">
           <div class="col-12 col-xl-12 pl-0">
             <h2 class="title title_big text_pink my-5 ml-5">Наши специалисты</h2>
           </div>
-          <div class="col-3">
+          <div class="col-4 pl-0">
             <div class="card bg-transparent border-0">
               <div class="card-body">
-                <div class="w-75">
+                <div class="w-50">
                   <p class="staff-discription">Квалифицированный персонал, имеющий продолжительный опыт работы в реабилитационном процессе, занимается каждым пациентом, учитывая его индивидуальные особенности и структуру личности.</p>
                 </div>
                 <a href="#" class="staff-link d-block mt-5 text_pink">Посмотреть ещё<br>специалистов</a>
@@ -278,15 +281,96 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid pr-0">
+      <div class="container-fluid pr-0 mt-5 pt-5">
         <div class="row container-w-95 pl-5">
           <div class="col-12">
-            <h2 class="title title_medium text_pink">Отзывы <br> клиентов</h2>
+            <h2 class="title title_medium text_pink mb-0">Отзывы <br> клиентов</h2>
           </div>
         </div>
-        <div class="row w-100 mx-0 pl-5 justify-content-end">
-          <div class="col-8 bg-white">
-            sas
+        <div class="row w-100 mx-0 pl-5 justify-content-end position-relative">
+          <div class="gallery-reviews position-absolute">
+            <div class="gallery-reviews__slide">
+              <div class="border p-3">
+                <iframe class="video" src="https://www.youtube.com/embed/9TLa20_wrCc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="gallery-reviews__slide">
+              <div class="border p-3">
+                <iframe class="video" src="https://www.youtube.com/embed/G-1QNCKMA64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="gallery-reviews__slide">
+              <div class="border p-3">
+                <iframe class="video" src="https://www.youtube.com/embed/L214P9lS5Xg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="gallery-reviews__slide">
+              <div class="border p-3">
+                <iframe class="video" src="https://www.youtube.com/embed/59zqFx2KK5w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="gallery-reviews__slide">
+              <div class="border p-3">
+                <iframe class="video" src="https://www.youtube.com/embed/Xr-kyBoHw1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="gallery-reviews__slide">
+              <div class="border p-3">
+                <iframe class="video" src="https://www.youtube.com/embed/WRQm-X8Kjrg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="gallery-reviews__slide">
+              <div class="border p-3">
+                <iframe class="video" src="https://www.youtube.com/embed/59zqFx2KK5w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="row col-11 col-xl-9 bg-white m-0 position-relative container-reviews py-5 shadow-sm">
+            <div class="col-6">
+              <h3 class="title text_pink text-center mb-3">Остались вопросы <br>и сомнения?</h3>
+              <h5 class="text-center mb-4">Позвоните нам и мы поможем<br> в решении вашей проблемы!</h5>
+              <h3 class="title text_pink text-center mb-5">8 (800) 550-30-63</h3>
+              <a href="tel:+7 (960) 845-80-23" class="call-btn mx-auto d-none d-xl-block">Позвонить</a>
+            </div>
+            <div class="col-6 position-relative">
+              <img src="img/reviews/doctor.png" alt="" class="img-reviews">
+            </div>
+
+          </div>
+          <div class="row d-block d-xl-none">
+            <div class="col-12">
+              <a href="tel:+7 (960) 845-80-23" class="call-btn">Позвонить</a>
+            </div>
+          </div>
+        </div>
+        <div class="row container-w-95">
+          <div class="col-12">
+            <h2 class="title title_medium text_pink text-center">Наши сертификаты и дипломы</h2>
+          </div>
+          <div class="row container-w-95 mx-auto">
+            <div class="certificates">
+              <a data-fancybox="certificates" href="img/certificates/1.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/1.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/2.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/2.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/3.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/3.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/4.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/4.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/5.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/5.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/6.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/6.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/7.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/7.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/8.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/8.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/9.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/9.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/10.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/10.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/11.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/11.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/12.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/12.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/13.jpg"><img class="img-certificats img-certificats_narrow" src="img/certificates/13.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/broad/1.jpg"><img class="img-certificats img-certificats__broad" src="img/certificates/broad/1.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/broad/2.jpg"><img class="img-certificats img-certificats__broad" src="img/certificates/broad/2.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/broad/3.jpg"><img class="img-certificats img-certificats__broad" src="img/certificates/broad/3.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/broad/4.jpg"><img class="img-certificats img-certificats__broad" src="img/certificates/broad/4.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/broad/5.jpg"><img class="img-certificats img-certificats__broad" src="img/certificates/broad/5.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/broad/6.jpg"><img class="img-certificats img-certificats__broad" src="img/certificates/broad/6.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/broad/7.jpg"><img class="img-certificats img-certificats__broad" src="img/certificates/broad/7.jpg" alt=""></a>
+              <a data-fancybox="certificates" href="img/certificates/broad/8.jpg"><img class="img-certificats img-certificats__broad" src="img/certificates/broad/8.jpg" alt=""></a>
+            </div>
           </div>
         </div>
       </div>
@@ -296,7 +380,7 @@
             <h2 class="title title_medium text_pink text-center">Вопрос и ответ</h2>
           </div>
         </div>
-        <div class="row container-w-95">
+        <div class="row">
           <div class="d-none d-xl-block col-4">
             <div class="position-relative">
               <img src="img/question/nosov.png" alt="" class="img-fluid">
@@ -461,7 +545,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="js/common.js"></script>    
+    <script src="js/common.js"></script>
 </body>
 </html>
