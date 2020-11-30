@@ -312,10 +312,11 @@ body{
 }
 
 .gallery-reviews{
+    position: absolute;
     width: 350px;
     top: 50%;
     transform: translateY(-50%);
-    left: 110px;
+    left: 20px;
     z-index: 3;
 }
 
@@ -381,21 +382,42 @@ body{
 .next-reviews{
     top: 113%;
 }
-
+.certificates-container{
+    margin-top: 100px;
+}
 .certificates{
     width: 100%;
+    margin-top: 20px;
 }
 
 .img-certificats_narrow{
     width: 220px;
 }
 
-.img-certificats{
-    margin: 0 20px;
+.box-img-cetificates:focus{
+    outline: none;
+}
+
+.box-img-cetificates{
+    margin: 20px 20px;
 }
 
 .img-certificats__broad{
     width: 300px;
     margin-top: 50%;
     transform: translateY(-50%);
+}
+
+.prev-certificates,
+.next-certificates{
+    top: 406px;
+    z-index: 1;
+}
+
+.prev-certificates{
+    left: 17%;
+}
+
+.next-certificates{
+    right: 18%;
 }
