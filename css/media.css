@@ -14,19 +14,39 @@
     .big-text-reviews {
         font-size: 20px;
     }
+    .img-top-section-girl-mobile{
+        width: 350px;
+    }
 }
 
 @media(min-width:768px){
     .maps{
         border: 8px solid #fff;
     }
+    .img-top-section-girl-mobile {
+        width: 450px;
+    }
+    .top-section{
+        width: 100%;
+    }
 }
 
 @media(min-width:992px){
-
+    .img-top-section-girl-mobile {
+        width: 455px;
+        bottom: 325px;
+    }
+    .btn-orange{
+        width: auto;
+        line-height: 15px;
+        padding: 15px 20px;
+    }
 }
 
 @media(min-width:1200px){
+    body{
+        font-size: 18px;
+    }
     .item-about:not(:last-child){
         margin-right: 65px;
         margin-bottom: 0;
@@ -58,5 +78,23 @@
     }
     .dots-certificates{
         display: block !important;
+    }
+    .top-section{
+        width: auto;
+    }
+    .navbar-nav{
+        font-size: 13px;
+    }
+    .about-cent{
+        width: 75%;
+    }
+}
+
+@media(min-width:1400px){
+    .card-staff {
+        width: 200px;
+    }
+    .navbar-nav{
+        font-size: 16px;
     }
 }

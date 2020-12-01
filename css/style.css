@@ -1,6 +1,6 @@
 body{
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     background-color: #F0F5F9;
 }
@@ -22,7 +22,7 @@ body{
 }
 
 .navbar-nav{
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .text_pink{
@@ -66,6 +66,10 @@ body{
     font-size: 36px;
 }
 
+.about-cent{
+    width: 100%;
+}
+
 .item-offer{
     font-size: 18px;
     margin: 20px 0;
@@ -89,7 +93,10 @@ body{
     color: #fff;
     background-color: #ED6C33;
     padding: 10px 20px;
-    line-height: 15px;
+    line-height: 20px;
+    position: relative;
+    width: 100%;
+    font-size: 21px;
 }
 
 .container-w-95{
@@ -237,12 +244,13 @@ body{
 
 .card-staff{
     height: 440px;
-    width: 160px;
+    width: 180px;
 }
 
-.card-staff-slide{
+.card-staff-slide {
     margin: 10px;
     height: 360px;
+    width: 200px;
 }
 
 .card-staff-slide:focus{
@@ -465,7 +473,12 @@ body{
 }
 
 .img-top-section-girl-mobile{
-    width: 70%;
+    width: 250px;
     position: relative;
     right: -15px;
+    bottom: -15px;
+}
+
+.price__container .card p{
+    line-height: 15px;
 }
