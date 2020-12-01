@@ -88,6 +88,12 @@
     .about-cent{
         width: 75%;
     }
+    .price__container .card p{
+        line-height: normal;
+    }
+    .item-about{
+        font-size: 13px;
+    }
 }
 
 @media(min-width:1400px){
@@ -95,6 +101,9 @@
         width: 200px;
     }
     .navbar-nav{
+        font-size: 16px;
+    }
+    .item-about{
         font-size: 16px;
     }
 }

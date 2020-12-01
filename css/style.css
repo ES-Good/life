@@ -130,6 +130,7 @@ body{
     right: 0;
     z-index: 2;
     width: 100%;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.5);
 }
 
 .about__link{
