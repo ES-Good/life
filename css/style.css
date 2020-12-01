@@ -11,13 +11,18 @@ body{
     background-color: #F0F5F9;
 }
 
+.desctop-logo{
+    width: 300px;
+}
+
 .phone{
     color: #ED6C33;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .navbar-nav{
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .text_pink{
@@ -232,6 +237,11 @@ body{
 
 .card-staff{
     height: 440px;
+    width: 160px;
+}
+
+.card-staff-slide{
+    margin: 10px;
 }
 
 .img-discription{
@@ -306,17 +316,14 @@ body{
 
 .img-reviews{
     position: absolute;
-    bottom: -48px;
+    bottom: 0;
     left: 0;
-    width: 320px;
+    width: 120px;
 }
 
 .gallery-reviews{
-    position: absolute;
-    width: 350px;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 20px;
+    position: relative;
+    width: 300px;
     z-index: 3;
 }
 
@@ -420,4 +427,20 @@ body{
 
 .next-certificates{
     right: 18%;
+}
+
+.box-discription-groaned{
+    width: 100%;
+}
+
+.price__container h4{
+    font-size: 18px;
+}
+
+.big-text-reviews{
+    font-size: 14px;
+}
+
+.discription-reviews{
+    font-size: 12px;
 }

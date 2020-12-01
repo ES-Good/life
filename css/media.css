@@ -8,6 +8,12 @@
     .mobile-logo{
         width: 250px;
     }
+    .discription-reviews {
+        font-size: 18px;
+    }
+    .big-text-reviews {
+        font-size: 20px;
+    }
 }
 
 @media(min-width:768px){
@@ -33,5 +39,19 @@
     .about-footer {
         width: 95%;
         padding: 45px 50px;
+    }
+    .gallery-reviews{
+        position: absolute;
+        width: 350px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20px;
+        z-index: 3;
+    }
+    .img-reviews{
+        position: absolute;
+        bottom: -48px;
+        left: 0;
+        width: 320px;
     }
 }
