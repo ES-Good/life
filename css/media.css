@@ -17,7 +17,9 @@
 }
 
 @media(min-width:768px){
-
+    .maps{
+        border: 8px solid #fff;
+    }
 }
 
 @media(min-width:992px){
@@ -53,5 +55,8 @@
         bottom: -48px;
         left: 0;
         width: 320px;
+    }
+    .dots-certificates{
+        display: block !important;
     }
 }
