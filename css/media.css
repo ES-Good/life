@@ -17,6 +17,9 @@
     .img-top-section-girl-mobile{
         width: 350px;
     }
+    .price__container h4{
+        font-size: 18px;
+    }
 }
 
 @media(min-width:768px){
@@ -94,6 +97,21 @@
     .item-about{
         font-size: 13px;
     }
+    .desctop-logo {
+        width: 290px;
+    }
+    .big-text-reviews {
+        font-size: 26px;
+    }
+    .discription-reviews {
+        font-size: 20px;
+    }
+    .mobile-nav{
+        background-color: transparent;
+        box-shadow: none;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
 }
 
 @media(min-width:1400px){
@@ -105,5 +123,32 @@
     }
     .item-about{
         font-size: 16px;
+    }
+    .phone-box{
+        margin-left: 45px;
+    }
+    .gallery-reviews{
+        width: 400px;
+    }
+    .prev-reviews {
+        left: -20px;
+    }
+}
+
+@media(min-width:1600px){
+    .gallery-reviews{
+        left: 55px;
+    }
+    .card-staff {
+        width: 230px;
+    }
+}
+
+@media(min-width:1700px){
+    .gallery-reviews{
+        left: 125px;
+    }
+    .card-staff {
+        width: 250px;
     }
 }

@@ -1,3 +1,7 @@
+const countSlide = document.getElementById('counted__num');
+const slideAllText = document.getElementById('all-slide')
+const slideAllCertificates = document.querySelectorAll('.img-certificats');
+
 $('.gallery-reviews').slick({
     dots: true,
     dotsClass: 'slick-dots dots-reviews',
@@ -19,6 +23,12 @@ $('.gallery-reviews').slick({
     slidesToShow: 1,
     centerMode: true,
     variableWidth: true
+  });
+
+  slideAllText.innerText = slideAllCertificates.length;
+
+  $('.certificates').on('afterChange', function(event, slick, currentSlide, nextSlide){ //счётчик слайдов
+    countSlide.innerText = currentSlide + 1;
   });
   
   $('.mobile-staff').slick({

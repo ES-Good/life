@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: Montserrat;
     font-size: 16px;
@@ -9,6 +13,13 @@ body{
     background-image: url(../img/top-section/bg/bg.jpg);
     background-repeat: no-repeat;
     background-color: #F0F5F9;
+}
+
+.mobile-nav{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .desctop-logo{
@@ -97,6 +108,15 @@ body{
     position: relative;
     width: 100%;
     font-size: 21px;
+}
+
+.btn-price{
+    font-size: 18px;
+}
+
+.btn-price:focus{
+    box-shadow: none;
+    text-decoration: underline;
 }
 
 .container-w-95{
@@ -462,7 +482,7 @@ body{
 }
 
 .price__container h4{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .big-text-reviews{
@@ -482,4 +502,26 @@ body{
 
 .price__container .card p{
     line-height: 15px;
+}
+
+.close-modal{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.btn-orange-submit{
+    font-size: 16px;
+}
+
+.title-form{
+    font-size: 26px;
+}
+
+.counted{
+    position: absolute;
+    left: 47%;
+    bottom: -17px;
+    color: red;
+    font-size: 26px;
+    font-weight: 900;
 }
