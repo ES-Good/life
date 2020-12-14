@@ -41,3 +41,13 @@ $('.gallery-reviews').slick({
     centerMode: true,
     variableWidth: true
   });
+
+const menuItem = document.querySelectorAll('.nav-link');
+
+for (let i = 0; i < menuItem.length; i++) {
+  const element = menuItem[i];
+  
+  element.onclick = function (){
+    document.querySelector('.navbar-collapse').classList.remove('show')
+  }
+}

@@ -112,6 +112,7 @@ body{
 
 .btn-price{
     font-size: 18px;
+    font-weight: bold;
 }
 
 .btn-price:focus{
@@ -127,6 +128,10 @@ body{
     background-color: #F0F5F9;
     background-image: url(../img/about/bg.svg);
     background-repeat: no-repeat;
+}
+
+.bg-nav{
+    background-color: #e8edf0;
 }
 
 .footer_bg{

@@ -133,6 +133,10 @@
     .prev-reviews {
         left: -20px;
     }
+    .item-about:not(:last-child) {
+        margin-right: 85px;
+        margin-bottom: 0;
+    }
 }
 
 @media(min-width:1600px){
@@ -141,6 +145,13 @@
     }
     .card-staff {
         width: 230px;
+    }
+    .item-about {
+        font-size: 18px;
+    }
+    .item-about:not(:last-child) {
+        margin-right: 105px;
+        margin-bottom: 0;
     }
 }
 
