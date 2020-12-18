@@ -35,7 +35,7 @@ $('.gallery-reviews').slick({
     dots: true,
     prevArrow: '<button class="slick-prev slick-arrow prev-mobile-staff" aria-label="Previous" type="button" style="">Previous</button>',
     nextArrow: '<button class="slick-next slick-arrow next-mobile-staff" aria-label="Next" type="button" style="">Next</button>',
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 1,
     centerMode: true,

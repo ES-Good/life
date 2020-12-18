@@ -115,9 +115,6 @@
 }
 
 @media(min-width:1400px){
-    .card-staff {
-        width: 200px;
-    }
     .navbar-nav{
         font-size: 16px;
     }

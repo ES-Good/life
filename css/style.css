@@ -275,8 +275,8 @@ body{
 
 .card-staff-slide {
     margin: 10px;
-    height: 360px;
-    width: 200px;
+    height: 420px;
+    width: 215px;
 }
 
 .card-staff-slide:focus{
@@ -292,7 +292,7 @@ body{
     background-color: #fff;
     box-shadow: 0 0 30px #4f4f4f;
     padding: 15px 0;
-    left: -15px;
+    right: 0px;
     bottom: -15px;
     z-index: 1;
 }
@@ -473,7 +473,7 @@ body{
 
 .prev-mobile-staff,
 .next-mobile-staff{
-    top: 383px;
+    top: 445px;
 }
 .prev-mobile-staff{
     left: 18px;
@@ -529,4 +529,10 @@ body{
     color: red;
     font-size: 26px;
     font-weight: 900;
+}
+
+.slick-dots{
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
 }
