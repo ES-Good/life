@@ -524,15 +524,26 @@ body{
 
 .counted{
     position: absolute;
-    left: 47%;
     bottom: -17px;
     color: red;
     font-size: 26px;
     font-weight: 900;
 }
 
+.counted_certificates{
+    left: 47%;
+}
+
+.counted_staff{
+    left: 45%;
+}
+
 .slick-dots{
     width: 70%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.slick-dots_staff{
+    display: none !important;
 }

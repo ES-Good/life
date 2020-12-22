@@ -20,6 +20,10 @@
     .price__container h4{
         font-size: 18px;
     }
+
+    .slick-dots_staff{
+        display: block !important;
+    }
 }
 
 @media(min-width:768px){
